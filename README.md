@@ -8,11 +8,13 @@
 - **Estou começando a desenvolver em HTML. Ainda aprendendo, mas animado para dominar essa linguagem!**
 - **No GitHub, compartilho meus projetos para quem se interessa. Animado para explorar a programação e aprender mais. Sugestões são bem-vindas!**
 
-  **VOCÊ PODE ENTRAR EM CONTATO COMIGO** 📮
+#### **VOCÊ PODE ENTRAR EM CONTATO COMIGO** 📮
   
 - 👀 **Instagram: @toxiic.z**
 
 - 📨  **E-mail : ruann239@gmail.com**
+
+![](https://media1.tenor.com/m/XSjKW2U6qHAAAAAC/smile-krupovich.gif)
 
 
 
