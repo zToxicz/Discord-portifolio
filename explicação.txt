@@ -1,0 +1,22 @@
+<!DOCTYPE html>: Define o tipo de documento como HTML5.
+<html lang="pt/br">: Define o idioma do documento como português do Brasil.
+<head>: Define a seção de cabeçalho do documento.
+<meta charset="UTF-8">: Define o conjunto de caracteres do documento como UTF-8.
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Define o tamanho da tela e o nível de zoom inicial do documento.
+<title class="title">‣ PROJETO DA ESCOLA</title>: Define o título do documento.
+<link rel="icon" href="images/toxic3.jpeg">: Define o ícone do documento.
+<link rel="stylesheet" href="css/dxxk24dDpOjf.css">: Define o caminho para o arquivo de folha de estilo CSS.
+<link rel="stylesheet" href="css/9Jw7OKFohRG3.css">: Define o caminho para o arquivo de folha de estilo CSS.
+<link rel="stylesheet" href="css/RXHup1qNuBbR.css">: Define o caminho para o arquivo de folha de estilo CSS.
+<link rel="stylesheet" href="css/card_music.css">: Define o caminho para o arquivo de folha de estilo CSS.
+<script>: Define a seção de script do documento.
+function audioPlay() {...}: Define uma função JavaScript chamada audioPlay() que é usada para tocar uma música aleatória.
+function disablesong() {...}: Define uma função JavaScript chamada disablesong() que é usada para pausar a música.
+function enablesong() {...}: Define uma função JavaScript chamada enablesong() que é usada para tocar a música.
+<audio loop="" preload="auto" id="audio">: Define o elemento de áudio HTML com um atributo id definido como audio.
+<!-- A origem da música será definida dinamicamente usando JavaScript -->: Define um comentário JavaScript que explica que a origem da música será definida dinamicamente usando JavaScript.
+<input type="checkbox" autocomplete="off" id="overlay-toggle">: Define um elemento de caixa de seleção HTML com um atributo id definido como overlay-toggle.
+<div class="overlay fullscreen">: Define um elemento de div HTML com uma classe definida como overlay e fullscreen.
+<label for="overlay-toggle" onclick="audioPlay(); ">: Define um elemento de rótulo HTML que é associado ao elemento de caixa de seleção com o atributo for definido como overlay-toggle. O atributo onclick chama a função audioPlay() quando o rótulo é clicado.
+<span class="overlayno-hover hover" style="font-family: monospace; font-size: 0.6em;">click</span>: Define um elemento de texto HTML com uma classe definida como overlayno-hover e hover. O texto é definido como "click" e o estilo é definido como monospace e tamanho 0.6em.
+<span class="overlayhover hover" style="font-family: monospace; font-size: 0.6em;">Não clique aqui, a menos que queira desvendar o mistério do botão perdido.👀</span>: Define um elemento de texto HTML com uma classe definida como overlayhover. O texto

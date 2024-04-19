@@ -1,0 +1,82 @@
+.audio-player {
+  position: fixed;
+  bottom: 10px; 
+  right: 10px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  height: 80px;
+  background-color: #28282800;
+  border-radius: 8px;
+  padding: 8px;
+  box-sizing: border-box;
+  backdrop-filter: blur(70px); 
+}
+
+.album-cover {
+  width: 64px;
+  height: 64px;
+  background-image: url('../pngs/album.jpeg');
+  background-color: #fff;
+  border-radius: 50%;
+  margin-right: 12px;
+  background-size: contain; 
+  background-position: center; 
+}
+
+.player-controls {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.song-info {
+  margin-bottom: 4px;
+}
+
+.song-title {
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+
+.artist {
+  font-size: 12px;
+  color: #b3b3b3;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.play-btn,
+.pause-btn {
+  font-size: 16px;
+  color: #fff;
+  margin-right: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.play-btn:hover,
+.pause-btn:hover {
+  transform: scale(1.2);
+}
+
+@keyframes progress-animation {
+  0% {
+    transform: scaleX(0);
+  }
+
+  100% {
+    transform: scaleX(1);
+  }
+}

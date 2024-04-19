@@ -1,0 +1,163 @@
+<html lang="pt/br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">‣ Portfólio Simples</title>
+    <link rel="icon" href="pngs/album.jpeg">
+    <link rel="stylesheet" href="css/dxxk24dDpOjf.css">
+    <link rel="stylesheet" href="css/9Jw7OKFohRG3.css">
+    <link rel="stylesheet" href="css/RXHup1qNuBbR.css">
+    <link rel="stylesheet" href="css/card_music.css">
+</head>
+<body>
+<script>
+	function audioPlay() {
+			var audio = document.getElementById("audio");
+			audio.volume = 0.5;
+            audio.currentTime = 0;
+			audio.play();
+	}
+
+    function disablesong() {
+        audio.pause();
+    }
+
+    function enablesong() {
+        audio.play();
+    }
+</script>
+
+<audio loop="" preload="auto" id="audio">
+    <!-- A origem da música será definida dinamicamente usando JavaScript -->
+</audio>
+
+
+<input type="checkbox" autocomplete="off" id="overlay-toggle">
+<div class="overlay fullscreen">
+	<label for="overlay-toggle" onclick="audioPlay(); ">
+		<span class="overlayno-hover hover" style="font-family: monospace; font-size: 0.6em;">click</span>
+		<span class="overlayhover hover" style="font-family: monospace; font-size: 0.6em;">Não clique aqui, a menos que queira desvendar o mistério do botão perdido.👀</span>
+	</label>
+</div>
+
+<video autoplay="" loop="" muted="" id="backgroundVideo">
+
+</video>
+
+<div class="container">
+    <div class="profile">
+        <div class="img">
+            <img class="orep7" src="pngs/AVATAR.gif">
+        </div>
+        <div class="rep7">Ruan Pablo N. Souza</div>
+        <div class="rep7 irep7"></div>
+        <div class="rep7 irep7">A possibilidade de realizarmos um sonho é o que torna a vida interessante.</div>
+        <div class="badges">
+            <div class="badge" style="background-image: url('images/HypeSquad_Balance.svg');" data-tooltip="Balance HypeSquad"></div>
+            <div class="badge" style="background-image: url('images/Active_Developer.svg');" data-tooltip="Active Developer"></div>
+            <div class="badge" style="background-image: url('images/UvqT7YVSuIzO.svg');" data-tooltip="Assinante desde 07 de set. de 2023"></div>
+            <div class="badge" style="background-image: url('images/boost3month.svg');" data-tooltip="Impulsionando o servidor desde 29 de out. de 2023"></div>
+            <div class="badge" style="background-image: url('images/username.svg');" data-tooltip="Originalmente Toxicsz#7271"></div>
+        </div>
+        <div class="social-buttons">
+            <a href="https://www.instagram.com/z.toxiic.z/" target="_blank" class="social-button">
+                <i class="fab fa-instagram social-icon"></i>
+            </a>
+            <a href="https://discord.gg/b8EEMUayuu" target="_blank" class="social-button">
+                <i class="fab fa-discord social-icon"></i>
+            </a>
+        </div>
+        <div class="7button">
+            <div class="7button">
+                <div class="7button-text">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</div>
+                <div class="rep7 irep7">Portfólio representativo do meu perfil no Discord.</div>
+                <div class="rep7 irep7">Aprendendo a Programar...</div>
+                <div class="7button-text">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</div>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+</div>
+
+<div class="audio-player">
+    <div class="album-cover"></div>
+    <div class="player-controls">
+        <div class="song-info">
+            <div class="song-title" id="songTitle">Name</div>
+            <p class="artist" id="artist">Artist</p>
+        </div>
+        <div class="buttons">
+            <button class="play-btn" onclick="enablesong()">
+                <svg viewBox="0 0 16 16" class="bi bi-play-fill" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: white">
+                    <path fill="white" d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"></path>
+                </svg>
+            </button>
+            <button class="pause-btn" onclick="disablesong()">
+                <svg viewBox="0 0 16 16" class="bi bi-pause-fill" fill="currentColor" height="16" width="16" xmlns="http://www.w3.org/2000/svg" style="color: white">
+                    <path fill="white" d="M5.5 3.5A1.5 1.5 0 0 1 7 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5zm5 0A1.5 1.5 0 0 1 12 5v6a1.5 1.5 0 0 1-3 0V5a1.5 1.5 0 0 1 1.5-1.5z"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+ 
+ var musicFiles = ['Lofi1.mp3', 'Lofi2.mp3', 'Lofi3.mp3'];
+
+
+var randomIndex = Math.floor(Math.random() * musicFiles.length);
+var randomMusic = musicFiles[randomIndex];
+
+
+var audio = document.getElementById('audio');
+
+
+audio.src = 'media/' + randomMusic;
+
+
+var songTitleElement = document.getElementById('songTitle');
+var artistElement = document.getElementById('artist');
+
+switch (randomMusic) {
+    case 'Lofi1.mp3':
+        songTitleElement.textContent = 'LOFI BEATS TIMER';
+        artistElement.textContent = 'Timer With Lofi Beats';
+        break;
+    case 'Lofi2.mp3':
+        songTitleElement.textContent = 'Relaxing Music Lofi Fish';
+        artistElement.textContent = 'Relaxing Timers';
+        break;
+    case 'Lofi3.mp3':
+        songTitleElement.textContent = 'Timer Relaxing Music Lofi';
+        artistElement.textContent = 'Relaxing Timers';
+        break;
+    default:
+        songTitleElement.textContent = 'Desconhecido';
+        artistElement.textContent = 'Desconhecido';
+}
+
+    audio.load(); 
+    audio.play();
+
+
+
+    var videoFiles = [ '1.mp4', '2.mp4', '3.mp4', '4.mp4' ];
+
+    
+    var randomIndexVideo = Math.floor(Math.random() * videoFiles.length);
+    var randomVideo = videoFiles[randomIndexVideo];
+
+    
+    var backgroundVideo = document.getElementById('backgroundVideo');
+
+    
+    backgroundVideo.src = 'backgrounds/' + randomVideo;
+
+    
+    backgroundVideo.load(); 
+    backgroundVideo.play();
+
+</script>
+
+</body></html>
